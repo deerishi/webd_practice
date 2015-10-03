@@ -4,6 +4,24 @@
 <head> Form 1</head>
 <body>
 <p id="demo"></p>
+    <form name="form1" action="redirect.html"  onsubmit="check1()"  method="post">
+        <fieldset>
+        First name: <br>
+        <input type="text" name="fname" value="Deepak" required>
+        <br>
+        Last Name:<br>
+        <input type="text" name="lname" value="Rishi">
+        <br>
+        Sex:<br>
+        <input type="radio" name="male" value="Male" checked>Male<br>
+        <input type="radio" name="female" value="Female" >Female
+        
+        <br>
+        <input type="submit" name="submit" value="Submit">
+        </fieldset>
+        
+    </form>
+        
     <script src="formValidationScript1.js"></script>
 </body>
 </html>
