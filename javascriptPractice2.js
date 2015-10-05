@@ -1,1 +1,1 @@
-document.write("\n\nScreen pixel depth is " +screen.pixelDepth);
+document.write("\n\nScreen pixel depth is " +screen.pixelDepth+ " and color depth is "+screen.colorDepth);
