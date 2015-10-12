@@ -1,0 +1,1 @@
+document.write("cookie is :"+ document.cookie);
